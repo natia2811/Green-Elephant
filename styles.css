@@ -88,6 +88,7 @@
     background: url(./assets/image2.svg);
 }
 
+/*ВХОД в ЛИЧНЫЙ КАБИНЕТ*/
 .entry_title{
     width: 310px;
     height: 29px;
@@ -99,6 +100,7 @@
     color: #000000;
     margin: auto;
     margin-bottom: 63px;
+    text-align: center;
 }
 .entry-form{
     width: 477px;
@@ -121,6 +123,13 @@
     color: #000000;
     padding-left: 34px;
 }
+.login-page-btns{
+    width: 455px;
+    height: 49px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 11px;
+}
 .entry-form-btn{
     width: 209px;
     height: 49px;
@@ -133,8 +142,23 @@
     line-height: 22px;
     color: #000000;
     background-color: #C4C4C4;
-    margin-right: 33px;
-    margin-left: 11px;
+}
+.entry-form-link{
+    display: block;
+    text-decoration: none;
+    width: 209px;
+    height: 49px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    background-color: #C4C4C4;
+    padding-top: 13px;
+    padding-left: 44px;
 }
 .entry-form-btn:last-child{
     margin-left: 0px;
@@ -155,7 +179,58 @@
     text-decoration: none;
     color: #000000;
 }
-
+/*РЕГИСТРАЦИЯ*/
+.registration-form{
+    width: 477px;
+    height: 385px;
+    margin: auto;
+    margin-bottom: 30px; 
+}
+.registration-btn{
+    width: 209px;
+    height: 49px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    background-color: #C4C4C4;
+    margin-top: 25px;
+    margin-left: 134px;
+}
+.registration-input{
+    width: 477px;
+    height: 49px;
+    background-color: rgba(196, 196, 196, 0.3);
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    padding-left: 34px;
+}
+.have-account{
+    width: 477px;
+    height: 22px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    margin: auto;
+    text-align-last: center;
+}
+.have-acc-link{
+    text-decoration: none;
+    color: #000000;
+}
 /*RESET PAGE*/
 .go-back{
     width: 18.76px;
@@ -214,7 +289,7 @@
     margin-left: 134px;
 }
 
-/*NEW PASSWORD CREATIO*/
+/*NEW PASSWORD CREATION*/
 .new-pass-form{
     width: 477px;
     height: 247px;
@@ -331,6 +406,21 @@ margin-bottom: 25px;
     padding-top: 14px;
     text-align: center;
 }
+.save-btn{
+    width: 209px;
+    height: 49px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    background-color: #C4C4C4;
+    margin-bottom: 25px;
+    text-align: center;
+}
 
 .exit{
     width: 60px;
@@ -345,6 +435,14 @@ line-height: 22px;
 color: #000000;
 text-decoration: none;
 }
+.wide-header-container{
+    width: 95.46%;
+    height: 60px;
+    display: flex;
+    margin-left: 2.60%;
+    justify-content: space-between;
+}
+
 .wide-header-nav{
     width: 37.75%;
 }
@@ -355,3 +453,28 @@ text-decoration: none;
 }
 
 /* ЛИЧНЫЙ КАБИНЕТ_СОХРАНИТЬ*/
+
+/*ГЛАВНАЯ ВАРИАНТ 1*/
+.main-header-nav{
+    width: 31.5%;
+}
+.main-header-list{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+}
+.main-header-item:last-child{
+    margin-left: -14.5%;
+}
+
+main{
+    height: 700px;
+}
+
+footer{
+width: 500px;
+height: 400px;
+}
+.temp-link{
+    display: block;
+}

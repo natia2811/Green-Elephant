@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ferma</title>
+        <title>Регистрация</title>
         <link rel="stylesheet" href="./reset.css">
         <link rel="stylesheet" href="./styles.css">
         <link rel="icon" href="./assets/elephant_logo.png">
@@ -37,15 +37,16 @@
         <div class="entry-logo">
            <!-- <img src="./assets/elephant_logo.png" alt="elephant"> -->
         </div>
-        <div class="entry_title">Вход в личный кабинет</div>
-        <form class="entry-form">
-             <input maxlength="25" size="40" name="login" placeholder="Телефон или Email" class="entry-form-input">
-             <input type="password" maxlength="25" size="40" name="password" placeholder="Пароль" class="entry-form-input">
-             <input type="submit" value="Войти" class="entry-form-btn">
-             <input type="submit" value="Регистрация" class="entry-form-btn">
+        <div class="entry_title">Регистрация</div>
+        <form class="registration-form">
+             <input maxlength="12" size="40" name="login" placeholder="Номер телефона" class="registration-input">
+             <input type="email" placeholder="Email" class="registration-input">
+             <input type="password" maxlength="6" size="40" name="password" placeholder="Пароль" class="registration-input">
+             <input type="password" maxlength="6" size="40" name="password" placeholder="Повторите пароль" class="registration-input">
+             <input type="submit" value="Регистрация" class="registration-btn">
            </form>
-           <div class="forgot-password">
-               <a href="./resetPassword.html" class="forgot-pass-link">Забыли пароль?</a><!--надо в форме или отдельно-->
+           <div class="have-account">
+               <a href="./login.html" class="have-acc-link">У меня уже есть аккаунт</a>
            </div>
     </main>
     <footer></footer>
