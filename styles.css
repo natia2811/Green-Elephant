@@ -467,14 +467,137 @@ text-decoration: none;
     margin-left: -14.5%;
 }
 
-main{
-    height: 700px;
-}
-
 footer{
 width: 500px;
 height: 400px;
 }
 .temp-link{
     display: block;
+}
+
+.search-form{
+    width: 72.43%;
+    height: 61px;
+    background-color: rgba(73, 180, 47, 0.24);
+    border-radius: 20px;
+    position: relative;
+    margin: 87px auto 72px;
+   }
+.search-btn{
+    border: none;
+    outline: none;
+    background: transparent;
+    position: absolute;
+    top: 11.84px;
+    left: 2.49%;
+    cursor: pointer;
+}
+.search-btn::before{
+    content: url(./assets/search_icon.svg);
+}
+
+
+.search-text{
+width: 100%;
+  height: 61px;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  padding-left: 8%;
+}
+.search-logo{
+background: url(./assets/elephant_logo.png);
+width: 135px;
+height: 139px;
+position: absolute;
+left: 3.8%;
+top: 180px;
+}
+
+.assortment-list{
+    display: flex;
+    width: 68%;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 41px;
+}
+.assortment-item{
+text-decoration: none;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+cursor: pointer;
+}
+.next-delivery-date{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+margin: auto;
+width: 32.64%;
+height: 29px;
+margin-bottom: 39px;
+}
+
+.product-container{
+    width: 1242px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.product-card{
+    width: 362px;
+    height: 421px;
+    margin-bottom: 71px;
+    padding-top: 25px;
+    padding-left: 40px;
+    background-color: #C4C4C4;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+}
+.product-image{
+    width: 279px;
+    height: 186px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-bottom: 22px;
+}
+.product-title{
+    width: 279px;
+font-family: 'Montserrat';
+font-weight: bold;
+margin-bottom: 22px;
+}
+.product-description{
+width: 279px;
+margin-bottom: 20px;
+}
+.product-price{
+width: 150px;    
+font-weight: bold; 
+}
+.buy-section{
+    width: 279px;
+    height: 37.54px;
+    display: flex;
+    justify-content: space-between;
+}
+.buy-btn{
+background: url(./assets/cart-icon.svg);
+width: 33.75px;
+height: 37.54px;
+margin-top: -4.25px;
 }
