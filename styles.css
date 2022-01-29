@@ -601,3 +601,193 @@ width: 33.75px;
 height: 37.54px;
 margin-top: -4.25px;
 }
+
+/*КОРЗИНА*/
+.cart-title{
+width: 111px;
+height: 29px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+margin: auto;
+margin-bottom: 63px;
+padding-top: 107px;
+margin-bottom: 170px;
+}
+.cart-item{
+    width: 61%;
+    height: 90px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.item-image{
+background-color: #C4C4C4;
+border-radius: 10px;
+width: 90px;
+height: 90px;
+margin-right: 5.9%;
+}
+.item-title{
+   width: 70.8%; 
+   height: 29px;
+   padding-top: 30.5px;
+   font-family: 'Montserrat';
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+}
+.item-quantity{
+    width: 118px;
+    height: 29px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30.5px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+}
+.qty{
+    width: 48px;
+    height: 29px;
+    border: none;
+    text-align: center;
+    color: #625EE3;
+    font-weight: bold;
+    text-align: right;
+}
+.qty-btn{
+width: 14px;
+height: 29px;
+border: none;
+background-color: transparent;
+padding: 0;
+}
+
+.price-container{
+    width: 61%;
+    height: 29px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 65px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+
+}
+.price-text{
+    width: 50%;
+    }
+
+.final-price{
+
+}
+
+.reminder{
+width: 61%;
+margin: auto;    
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+margin-bottom: 27px;
+}
+.order-btns{
+    width: 53.54%;
+    height: 49px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.ord-btn{
+    width: 46.43%;
+    height: 49px;
+    background-color: #C4C4C4;
+border-radius: 10px;
+text-align: center;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+text-decoration: none;
+padding-top: 10px;
+}
+
+/*ДОСТАВКА*/
+.delivery-container{
+    min-height: 29px;
+    width: 50%;
+    margin-bottom: 108px;
+    margin-left: 23.05%;
+    padding-top: 233px;
+}
+.delivery-item{
+   
+    height: 29px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+margin-bottom: 30px;
+display: flex;
+}
+.delivery-title{
+    width: 67.19%;
+}
+.delivery-btns{
+    width: 43.89%;
+    height: 49px;
+    margin-left: 26.60%;
+    display: flex;
+}
+.dlv-cancel-btn{
+    width: 19.46%;
+    background-color: transparent;
+    margin-left: 23.89%;
+}
+.delivery-information{
+    width: 35.14%;
+    height: 250px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+margin-bottom: 46px;
+margin-left: 23.05%;
+}
+.dlv-inf{
+    margin-bottom: 28px;
+}
+.dlv-inf:last-child{
+    margin-bottom: 0;
+    font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+}
+
+
+/**/
+.pickup-adress{
+    margin-bottom: 76px;
+}

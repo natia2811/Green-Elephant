@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Корзина</title>
+        <title>Доставка</title>
         <link rel="stylesheet" href="./reset.css">
         <link rel="stylesheet" href="./styles.css">
         <link rel="icon" href="./assets/elephant_logo.png">
@@ -34,7 +34,7 @@
                     </a>
                 </li>
                 <li class="header-item">
-                    <a href="./privateInfo_edit.html" class="header-link">
+                    <a href="#" class="header-link">
                         <img src="./assets/accountInactive.png" alt="account">
                     </a>
                 </li>
@@ -44,29 +44,32 @@
     </div> 
     </header>
     <main>
-        <div class="go-back1">
-            <a href="#"><img src="./assets/back.svg" alt="back"></a>
-        </div>
         <div class="logo-left-side">
         </div>
-        <div class="cart-title">Корзина</div>
-           <div class="cart-item">
-               <div class="item-image"></div>
-               <div class="item-title">Смородина</div>
-               <div class="item-quantity">
-                   <button class="qty-btn">-</button>
-                   <input type="number" readonly class="qty" min="0" max="20" value="1">
-                   <button class="qty-btn">+</button>
-           </div>
-        </div>
-        <div class="price-container">
-            <div class="price-text">Приблизительная стоимость*: </div>
-            <div class="final-price"></div><!--delete if no need-->
-        </div>
-        <div class="reminder">*Общая стоимость зависит от итогового веса</div>
-        <div class="order-btns">
-            <a href="./delivery.html" class="ord-btn">Заказать с доставкой</a>
-            <a href="#" class="ord-btn">Самовывоз</a>
+        <div class="delivery-container">
+       <div class="delivery-item">
+           <div class="delivery-title">Смородина</div>
+           <div class="delivery-qty">1 ящик (~4 кг)</div>
+       </div>
+       <div class="delivery-item">
+        <div class="delivery-title">Смородина</div>
+        <div class="delivery-qty">1 ящик (~4 кг)</div>
+    </div>
+    <div class="delivery-item">
+        <div class="delivery-title">Смородина</div>
+        <div class="delivery-qty">1 ящик (~4 кг)</div>
+    </div>
+    </div>
+    <div class="delivery-information">
+        <div class="dlv-inf">Дата доставки: </div>
+        <div class="dlv-inf">Адрес доставки: </div>
+        <div class="dlv-inf">Получатель: </div>
+        <div class="dlv-inf">Приблизительная стоимость*: </div>
+        <div class="dlv-inf">*Окончательная стоимость зависит от итогового веса</div>
+    </div>
+        <div class="delivery-btns">
+            <a href="#" class="ord-btn">Подтвердить</a>
+            <a href="#" class="ord-btn dlv-cancel-btn">Отменить</a>
         </div>
     </main>
     <footer></footer>
