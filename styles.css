@@ -85,7 +85,7 @@
     margin: auto;
     margin-top: 24px;
     margin-bottom: 32px;
-    background: url(./assets/image2.svg);
+    background: url(./assets/image2.png);
 }
 
 /*ВХОД в ЛИЧНЫЙ КАБИНЕТ*/
@@ -325,10 +325,11 @@
     margin-top: 53px;
 }
 .logo-left-side{
+    display: block;
     width: 160.81px;
     height: 160.81px;
     position: absolute;
-    background: url(./assets/image2.svg);
+    background: url(./assets/image2.png);
     left: 9.3%;
     top: 171px;
 }
@@ -468,8 +469,7 @@ text-decoration: none;
 }
 
 footer{
-width: 500px;
-height: 400px;
+height: 150px;
 }
 .temp-link{
     display: block;
@@ -510,7 +510,7 @@ width: 100%;
   padding-left: 8%;
 }
 .search-logo{
-background: url(./assets/elephant_logo.png);
+background: url(./assets/image2.png);
 width: 135px;
 height: 139px;
 position: absolute;
